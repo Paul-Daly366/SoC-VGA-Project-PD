@@ -2,12 +2,13 @@
 layout: home
 title: FPGA VGA Driver Project
 tags: fpga vga verilog
-categories: demo
+categories: project
 ---
 
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. 
+Welcome to my development page for my project. This is a project to adapt an FPGA VGA driver to display graphics on to a display.
+[Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. ]
 
-I am adding a test sentence here at 13:24 on 03/12/24.
+
 
 ## **Template VGA Design**
 ### **Project Set-Up**
