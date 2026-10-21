@@ -4,7 +4,6 @@ title: FPGA VGA Driver Project
 tags: fpga vga verilog
 categories: project
 ---
-Author: Paul Daly
 
 # Project Synopsis
 
