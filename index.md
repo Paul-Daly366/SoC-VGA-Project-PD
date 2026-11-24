@@ -1,6 +1,6 @@
 ---
 layout: home
-title: FPGA VGA Driver Project
+title: FPGA VGA Driver Project - PD
 tags: fpga vga verilog
 categories: project
 ---
@@ -11,15 +11,11 @@ Welcome to my development page for my project. This is a project to adapt an FPG
 
 [Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. ]
 
-
-
 ## **Template VGA Design**
 
 ### **Project Set-Up**
 
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
-
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
 
 ### **Template Code**
 
