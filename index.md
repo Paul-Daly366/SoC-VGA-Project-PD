@@ -57,24 +57,48 @@ If you get your own design working on the Basys3 board, take a picture! Guidelin
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Code_Combo_Logic.png">
 
+Above: Combinational Logic of my verilog file
+
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Code_Sequential_Logic.png">
+
+Above: Sequential Logic of my verilog file
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Code_Start_RegsVarsConsts.png">
 
+Above: Start of my verilog file showing declarations for registers, variables and constants
+
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboLogic.png">
+
+Above: Expanded Logic Diagram of Project
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboTemp.png">
 
+Above: Expanded Logic Diagram of Template
+
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/HighLevelOverview.png">
+
+Above: Overview of Logic Diagram of Project
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Proj_Summary.png">
 
+Above: Project Summary
+
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Synthesis1.png">
+
+Above: Overview of Synthesis/Implementation (which?)
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Synthesis2_REGS.png">
 
+Above: Picture of components in S/I
+
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Synthesis3_DFLIPFLOP.png">
+
+Above: D Flip Flop
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/SynthTemplate.png">
 
+Above: Synthesis Picture (?)
+
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/VGA_Top_Code.png">
+
+Above: Picture of VGA Top, showing my verilog file being used to create an object
