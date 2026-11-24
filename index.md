@@ -98,3 +98,11 @@ Above: Synthesis Picture (?)
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/VGA_Top_Code.png">
 
 Above: Picture of VGA Top, showing my verilog file being used to create an object
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_ColourStripes.png">
+
+Above: Simulation of colour stripe testbench, with smaller parameters to make simulation easy to follow
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_with_colour_changes.png">
+
+Above: Expanded testbench to include colour changes, represented by characters in bit waveforms
