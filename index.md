@@ -101,8 +101,16 @@ Above: Picture of VGA Top, showing my verilog file being used to create an objec
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_ColourStripes.png">
 
-Above: Simulation of colour stripe testbench, with smaller parameters to make simulation easy to follow
+Above: Simulation of colour stripe testbench simulation, parameters have been adjusted to make the simulation easy to follow
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_with_colour_changes.png">
 
 Above: Expanded testbench to include colour changes, represented by characters in bit waveforms
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Moving_Square.png">
+
+Above: A simple square moving across the screen, utilizes a counter incremented with the clock
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Circle.png">
+
+Above: A circle on screen, created using a square distance formula and comparing to the current row and col position
