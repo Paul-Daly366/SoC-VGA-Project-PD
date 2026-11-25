@@ -17,7 +17,11 @@ Welcome to my development page for my project. This is a project to adapt an FPG
 
 ### **Project Set-Up**
 
-My project is built on top of template drivers. These templates have modules coded to sync the display code with the displays vertical and horizontal sync, as well as handling the outputs. A clock module is implemented, with a frequency of 25MHz, taken from dividing the 100MHz frequency of the board clock, which is the required frequency for this driver.
+My project is built on top of template drivers. These templates have modules coded to synchronize the display code with the VGA vertical and horizontal sync, as well as handling the outputs. A clock module is implemented, with a frequency of 25MHz which is the required frequency for this driver.
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Proj_Summary.png">
+
+Above: Project Summary
 
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
@@ -101,9 +105,7 @@ Above: Elaborated Design of template project, modules have been expanded
 
 Above: Elaborated Design of my project
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Proj_Summary.png">
 
-Above: Project Summary
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Synthesis1.png">
 
