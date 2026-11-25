@@ -24,6 +24,14 @@ My project is built on top of template drivers. These templates have modules cod
 
 Above: Project Summary
 
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Arch_Diagram.png">
+
+Above: Architectural Diagram of template project
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Template_Overview.png">
+
+Above: Elaborated Design for template project
+
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
 ### **Template Code**
@@ -152,9 +160,7 @@ Above: A simple square moving across the screen, utilizes a counter incremented 
 
 Above: A circle on screen, created using a square distance formula and comparing to the current row and col position
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Template_Overview.png">
 
-Above: Elaborated Design for template project
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/VGASync_Code.png">
 
@@ -164,7 +170,5 @@ Above: VGASync module code
 
 Above: ColourStripe module code
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Arch_Diagram.png">
 
-Above: Architectural Diagram of template project
 
