@@ -79,7 +79,9 @@ The output of this template project, a range of colours on different column rang
 
 Above: ColourStripe demo
 
-VID HERE IF POSSIBLE
+<video width="320" height="240" controls muted loop src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"> </video>
+
+Above: ColourCycle demo
 
 ## **My VGA Design Edit**
 
@@ -117,25 +119,27 @@ Above: Simulation of my project, this particular design code only has black (0) 
 
 ### **Synthesis**
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboLogic.png">
-
-Above: Elaborated Design of my project, modules have been expanded
+SYNTH STUFF HERE
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/HighLevelOverview.png">
 
 Above: Elaborated Design of my project
 
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboLogic.png">
+
+Above: Elaborated Design of my project, modules have been expanded
+
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Synthesis1.png">
 
-Above: Overview of Synthesis/Implementation (which?)
+Above: Overview of Implemented Design
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Synthesis2_REGS.png">
 
-Above: Picture of components in S/I
+Above: Zoomed in on some components
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Synthesis3_DFLIPFLOP.png">
 
-Above: D Flip Flop
+Above: D Flip Flop used to store the circles x position
 
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 
@@ -153,14 +157,6 @@ VID OF BOUNCING CIRCLE HERE
 
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
 
-## Pictures WIP
-
-
-
-
-<video width="320" height="240" controls muted loop src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"> </video>
-
-Above: ColourCycle demo
 
 
 
