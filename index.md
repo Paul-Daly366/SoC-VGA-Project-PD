@@ -82,7 +82,9 @@ The output of this template project, a range of colours on different column rang
 
 Above: ColourStripe demo
 
-<video src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4" muted>
+<video src="https://media.githubusercontent.com/media/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4" muted>
+
+Above: ColourCycle demo
 
 ## **My VGA Design Edit**
 
