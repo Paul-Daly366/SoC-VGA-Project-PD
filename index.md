@@ -46,7 +46,9 @@ Above: VGASync module code
 
 Above: ColourStripe module code
 
-Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourStripe_Code_Continued.png">
+
+Above: ColourStripe handling sequential logic and outputs
 
 ### **Simulation**
 
