@@ -43,6 +43,14 @@ Explain the simulation process. Reference any important details, include a well-
 
 Synthesis and Implementation processes are the design steps of implementing the code into hardware. The code is first coded with logic gates, as seen in Fig 1, which is a higher level of abstraction than actual hardware. This design is then programmed into the SoC, as seen in Fig 2, using look up tables, multiplexers and D flip flops. The connections are shown in green.
 
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboTemp.png">
+
+Above: Elaborated Design of template project, modules have been expanded
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/SynthTemplate.png">
+
+Above: Implemented Design of template project
+
 PICS HERE WITH DESCS AND LABELS
 
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
@@ -97,9 +105,7 @@ Above: Start of my verilog file showing declarations for registers, variables an
 
 Above: Elaborated Design of my project, modules have been expanded
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboTemp.png">
 
-Above: Elaborated Design of template project, modules have been expanded
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/HighLevelOverview.png">
 
@@ -119,9 +125,7 @@ Above: Picture of components in S/I
 
 Above: D Flip Flop
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/SynthTemplate.png">
 
-Above: Synthesis Picture (?)
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/VGA_Top_Code.png">
 
