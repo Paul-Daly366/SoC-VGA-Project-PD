@@ -82,9 +82,7 @@ The output of this template project, a range of colours on different column rang
 
 Above: ColourStripe demo
 
-<video src="https://media.githubusercontent.com/media/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4" muted>
-
-Above: ColourCycle demo
+VID HERE IF POSSIBLE
 
 ## **My VGA Design Edit**
 
@@ -164,9 +162,11 @@ Above: D Flip Flop
 Above: Simulation of my project, this particular design code only has black (0) or white (f), which can be seen in the start
 
 
-## Resources used for this Project
 
-Reference stuff here, use proper links
+
+<video width="320" height="240" controls loop="" muted="" autoplay="" src="https://media.githubusercontent.com/media/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"></video>
+
+Above: ColourCycle demo
 
 
 
