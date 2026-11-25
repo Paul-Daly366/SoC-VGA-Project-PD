@@ -78,7 +78,11 @@ Above: Implemented Design of template project
 
 The output of this template project, a range of colours on different column ranges displayed through VGA.
 
-PIC HERE, NEED TO BE DONE DURING LAB
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourStripesDemo.png">
+
+Above: ColourStripe demo
+
+<video src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4" muted>
 
 ## **My VGA Design Edit**
 
