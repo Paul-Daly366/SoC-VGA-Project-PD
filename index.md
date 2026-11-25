@@ -17,15 +17,7 @@ Welcome to my development page for my project. This is a project to adapt an FPG
 
 ### **Project Set-Up**
 
-There are two tenplate projects provided, Colour Stripes and Colour Cycle. I used and learned from both of these to make my own display code, and utilized the modules in these templates to work with.
-
-The templates work with several modules:
-
-* VGA Top
-* VGA Sync
-* Colour Stripes/Colour Cycles
-
-
+My project is built on top of template drivers. These templates have modules coded to sync the display code with the displays vertical and horizontal sync, as well as handling the outputs. VGASync handles this vsync/hsync system while providing row and column count to other modules, so that the colour of the current pixel can be controlled. VGATop is the main module. ColourStripe handles the logic behind pixel colour choice, taking input from other modules to do so. This is done using combinational logic to decide colour output and using sequential logic to assign colour values to registers. 
 
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
