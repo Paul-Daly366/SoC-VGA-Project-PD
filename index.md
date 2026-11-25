@@ -163,9 +163,9 @@ Above: Video of circle bouncing on edges of screen, though the edges are bit ina
 
 [SoC Board Documentation](https://digilent.com/reference/programmable-logic/basys-3/reference-manual)
 
-[A useful verilog tutorial](https://chipverify.com/verilog/verilog-tutorial)
+[A Useful Verilog Tutorial](https://chipverify.com/verilog/verilog-tutorial)
 
-[Some interesting verilog guides](https://www.asic-world.com/verilog/veritut.html)
+[Some Interesting Verilog Guides](https://www.asic-world.com/verilog/veritut.html)
 
 
 
