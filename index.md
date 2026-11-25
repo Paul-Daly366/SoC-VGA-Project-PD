@@ -52,11 +52,11 @@ Above: ColourStripe handling sequential logic and outputs
 
 ### **Simulation**
 
-The project is simulated using a testbench, this is a file that uses the coded modules while simulating clocks or inputs. VGA syncing works with over hundreds of rows and columns, this makes it impossible to see everything in a timescale handled by the simulation, so some parameters have coded in to the testbench to allow other code to run within this timeframe. Notably the row and column numbers have been reduced significantly, as can be seen in the screenshot supplied. No colour changes can be seen in this as the row and column variables will never be large enough for ColourStripe to change these colours.
+The project is simulated using a testbench, this is a file that uses the coded modules while simulating clocks or inputs. VGA syncing works with over hundreds of rows and columns, this makes it impossible to see everything in a timescale handled by the simulation, so some parameters have been coded in as different values to the testbench to better suit this timeframe. Notably the row and column limits have been reduced significantly, as can be seen in the screenshot supplied. No colour changes can be seen in the first simulation as the row and column variables will never be large enough for ColourStripe to change these colours, the second simulation has a module adjusted to change some colours with respect to the lower limit parameters.
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_ColourStripes.png">
 
-Above: Simulation of colour stripe testbench simulation, parameters have been adjusted to make the simulation easy to follow
+Above: Simulation of colour stripe testbench simulation, parameters have been adjusted to make the simulation easy to follow UPDATE PIC
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_with_colour_changes.png">
 
