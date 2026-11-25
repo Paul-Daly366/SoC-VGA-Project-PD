@@ -32,13 +32,19 @@ Above: Architectural Diagram of template project
 
 Above: Elaborated Design for template project
 
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
-
 ### **Template Code**
 
-VGASync handles the vsync/hsync system while providing row and column count to other modules, so that the colour of the current pixel can be controlled. VGATop is the main module. ColourStripe handles the logic behind pixel colour choice, taking input from other modules to do so. This is done using combinational logic to decide colour output and using sequential logic to assign colour values to registers. 
+The way a display works is displaying each pixel at a time, column by column and row by row, from top left to bottom right. This is done 60 times a second, creating a 60Hz image. This is the standard for visual displays, and a standard our project must follow. This is handled by incrementing different parameters with respect to other parameters, such as resetting the column variable once it has reached the horizontal limit and incrementing row every time this occurs. 
 
-PICS HERE
+VGASync handles the vsync/hsync system while providing row and column count to other modules, so that the colour of the current pixel can be controlled. VGATop is the main module, where the other modules are instantiated. ColourStripe handles the display logic, controlling pixel colour, taking input from other modules to do so. This is done using combinational logic to decide colour output (setting colour_next) and using sequential logic to assign colour values to registers (using colour_reg and colour_next).
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/VGASync_Code.png">
+
+Above: VGASync module code
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourStripe_Code.png">
+
+Above: ColourStripe module code
 
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 
@@ -162,13 +168,7 @@ Above: A circle on screen, created using a square distance formula and comparing
 
 
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/VGASync_Code.png">
 
-Above: VGASync module code
-
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourStripe_Code.png">
-
-Above: ColourStripe module code
 
 
 
