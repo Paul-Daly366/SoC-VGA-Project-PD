@@ -27,11 +27,11 @@ Above: Architectural Diagram of template project
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Template_Overview.png">
 
-Above: Elaborated Design for template project
+Above: Elaborated Design of template project
 
 ### **Template Code**
 
-The way a display works is displaying each pixel at a time, column by column and row by row, from top left to bottom right. This is done 60 times a second, creating a 60Hz image. This is the standard for visual displays, and a standard our project must follow. This is handled by incrementing different parameters with respect to other parameters, such as resetting the column variable once it has reached the horizontal limit and incrementing row every time this occurs. 
+The way a display works is by displaying each pixel at a time, column by column and row by row, from top left to bottom right. This is done 60 times a second, creating a 60Hz image. This is the standard for visual displays, and a standard our project must follow. This is handled by incrementing different parameters with respect to other parameters, for example resetting the column variable once it has reached the horizontal limit and incrementing row every time this occurs. 
 
 VGASync handles the vsync/hsync system while providing row and column count to other modules, so that the colour of the current pixel can be controlled. VGATop is the main module, where the other modules are instantiated. ColourStripe handles the display logic, controlling pixel colour, taking input from other modules to do so. This is done using combinational logic to decide colour output (setting colour_next) and using sequential logic to assign colour values to registers (using colour_reg and colour_next).
 
@@ -41,7 +41,7 @@ Above: The code files in the template project
 
 ### **Simulation**
 
-The project is simulated using a testbench, this is a file that uses the coded modules while simulating clocks or inputs. Testbenchs simulate a very small timeframe, due to the computational power required to simulate real hardware for long time periods. VGA syncing works with over hundreds of rows and columns, this makes it impossible to see everything in this small timeframe, so some parameters have been coded in as different values to the testbench to allow us to see the changes better. 
+The project is simulated using a testbench, this is a file that uses the coded modules while simulating clocks or inputs. Testbenchs simulate a very small timeframe, due to the immense computational power required to simulate real hardware for long time periods. VGA syncing works with over hundreds of rows and columns, this makes it impossible to see everything in this small timeframe, so some parameters have been coded in as different values to the testbench to allow us to see the changes better. 
 
 Notably the row and column limits have been reduced significantly. No colour changes can be seen in the first simulation as the row and column variables will never be large enough for ColourStripe to change these values, the second simulation has a module adjusted to change some colours with respect to the lower limit parameters. 
 
