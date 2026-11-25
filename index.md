@@ -121,9 +121,7 @@ Above: Simulation of my project, this particular design code only has black (0) 
 
 Synthesis step creates an elaborated design from the code using logic gates and registers, implementation applies it to the actual hardware using the components on the SoC such as multiplexers or registers.
 
-There is a lot more registers used in my project compared to the template, this is no surprise as a lot of the display logic works on different registers, such as the x and y positions of the circle.
-
-Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
+One big difference I noticed, there is a lot more registers used in my project compared to the template. This isn't too surprising as a lot of the display logic works on different registers, for example the x and y positions of the circle are saved in registers.
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/HighLevelOverview.png">
 
