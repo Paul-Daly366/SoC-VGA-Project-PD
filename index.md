@@ -11,9 +11,6 @@ Welcome to my development page for my project. This is a project to adapt an FPG
 
 The plan is to put a custom image of my design onto a display with a VGA cable, powered by FPGA code.
 
-
-[Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. ]
-
 ## **Template VGA Design**
 
 ### **Project Set-Up**
@@ -105,10 +102,14 @@ There was some learning curves, knowing where to place code, separating combinat
 Above: Code snippets from my design file
 
 ### **Simulation**
+
+I adapted the testbench from the template code to work with my design. I didn't have to change too much, I added a simulation source file and then added code for the circle module
  
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 
 ### **Synthesis**
+
+
 
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 
@@ -162,11 +163,13 @@ Above: Simulation of my project, this particular design code only has black (0) 
 
 
 
-<video width="320" height="240" controls loop="" muted="" autoplay=""> <source src="https://media.githubusercontent.com/media/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"/> </video>
+<video width="320" height="240" controls loop="" muted="" autoplay=""> <source src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"/> </video>
 
 Above: ColourCycle demo
 
 
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_Circle.png">
 
+Above: Testbench file of project
 
 
