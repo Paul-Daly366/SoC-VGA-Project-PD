@@ -96,7 +96,9 @@ I got a circle to display by using a euclidean distance formula and comparing to
 
 There was some learning curves, knowing where to place code, separating combinational and sequential logic, how registers work, but I slowly built up knowledge and confidence with the language.
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Circle_Code_Combinational.png" width="40%"> <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Circle_Code_Sequential.png" width="40%">
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Code_Start_RegsVarsConsts.png" width="30%"> <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Circle_Code_Combinational.png" width="30%"> <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Circle_Code_Sequential.png" width="30%"> 
+
+Above: Code snippets from my design file
 
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
 
@@ -132,9 +134,7 @@ Above: Combinational Logic of my verilog file
 
 Above: Sequential Logic of my verilog file
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Code_Start_RegsVarsConsts.png">
 
-Above: Start of my verilog file showing declarations for registers, variables and constants
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboLogic.png">
 
