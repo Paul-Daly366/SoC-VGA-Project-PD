@@ -46,7 +46,7 @@ Above: The code files in the template project
 
 The project is simulated using a testbench, this is a file that uses the coded modules while simulating clocks or inputs. Testbenchs simulate a very small timeframe, due to the computational power required to simulate real hardware for long time periods. VGA syncing works with over hundreds of rows and columns, this makes it impossible to see everything in this small timeframe, so some parameters have been coded in as different values to the testbench to allow us to see the changes better. 
 
-Notably the row and column limits have been reduced significantly, as can be seen in the screenshot supplied. No colour changes can be seen in the first simulation as the row and column variables will never be large enough for ColourStripe to change these values, the second simulation has a module adjusted to change some colours with respect to the lower limit parameters.
+Notably the row and column limits have been reduced significantly. No colour changes can be seen in the first simulation as the row and column variables will never be large enough for ColourStripe to change these values, the second simulation has a module adjusted to change some colours with respect to the lower limit parameters. 
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_File_Template.png">
 
