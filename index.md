@@ -126,13 +126,6 @@ If you get your own design working on the Basys3 board, take a picture! Guidelin
 
 ## Pictures WIP
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Code_Combo_Logic.png">
-
-Above: Combinational Logic of my verilog file
-
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Code_Sequential_Logic.png">
-
-Above: Sequential Logic of my verilog file
 
 
 
@@ -140,13 +133,9 @@ Above: Sequential Logic of my verilog file
 
 Above: Elaborated Design of my project, modules have been expanded
 
-
-
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/HighLevelOverview.png">
 
 Above: Elaborated Design of my project
-
-
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Synthesis1.png">
 
@@ -159,12 +148,6 @@ Above: Picture of components in S/I
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Synthesis3_DFLIPFLOP.png">
 
 Above: D Flip Flop
-
-
-
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/VGA_Top_Code.png">
-
-Above: Picture of VGA Top, showing my verilog file being used to create an object
 
 
 
