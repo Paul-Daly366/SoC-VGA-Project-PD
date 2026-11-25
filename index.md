@@ -105,6 +105,8 @@ Above: Code snippets from my design file
 
 I adapted the testbench from the template code to work with my project. I didn't have to change too much, just adding the testbench as a simulation source file and changing a line of code to use the circle test module.
 
+The simulation is similar to the template, shows a colour change occuring and shows hsync and vsync changing alongside the rows and columns.
+
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_Circle.png">
 
 Above: Testbench file of project
@@ -112,33 +114,8 @@ Above: Testbench file of project
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_CircleTest.png">
 
 Above: Simulation of my project, this particular design code only has black (0) or white (f), which can be seen in the start
- 
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 
 ### **Synthesis**
-
-
-
-Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
-
-### **Demonstration**
-
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Moving_Square.png">
-
-Above: A simple square moving across the screen, utilizes a counter incremented with the clock
-
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Circle.png">
-
-Above: A circle on screen, created using a square distance formula and comparing to the current row and col position
-
-VID OF BOUNCING CIRCLE HERE
-
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
-
-## Pictures WIP
-
-
-
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboLogic.png">
 
@@ -160,9 +137,23 @@ Above: Picture of components in S/I
 
 Above: D Flip Flop
 
+Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 
+### **Demonstration**
 
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Moving_Square.png">
 
+Above: A simple square moving across the screen, utilizes a counter incremented with the clock
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Circle.png">
+
+Above: A circle on screen, created using a square distance formula and comparing to the current row and col position
+
+VID OF BOUNCING CIRCLE HERE
+
+If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+
+## Pictures WIP
 
 
 
