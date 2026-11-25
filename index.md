@@ -9,6 +9,7 @@ categories: project
 
 Welcome to my development page for my project. This is a project to adapt an FPGA VGA driver to display graphics on to a display. I will be attempting to create a simple version of the DVD logo through Vivado, and will be going through the FPGA workflow that follows.
 
+The plan is to put a custom image of my design onto a display with a VGA cable, powered by FPGA code.
 
 
 [Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. ]
