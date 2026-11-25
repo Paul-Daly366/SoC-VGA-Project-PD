@@ -17,20 +17,38 @@ Welcome to my development page for my project. This is a project to adapt an FPG
 
 ### **Project Set-Up**
 
-My project is built on top of template drivers. These templates have modules coded to sync the display code with the displays vertical and horizontal sync, as well as handling the outputs. VGASync handles this vsync/hsync system while providing row and column count to other modules, so that the colour of the current pixel can be controlled. VGATop is the main module. ColourStripe handles the logic behind pixel colour choice, taking input from other modules to do so. This is done using combinational logic to decide colour output and using sequential logic to assign colour values to registers. 
+My project is built on top of template drivers. These templates have modules coded to sync the display code with the displays vertical and horizontal sync, as well as handling the outputs. A clock module is implemented, with a frequency of 25MHz, taken from dividing the 100MHz frequency of the board clock, which is the required frequency for this driver.
 
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
 ### **Template Code**
 
+VGASync handles the vsync/hsync system while providing row and column count to other modules, so that the colour of the current pixel can be controlled. VGATop is the main module. ColourStripe handles the logic behind pixel colour choice, taking input from other modules to do so. This is done using combinational logic to decide colour output and using sequential logic to assign colour values to registers. 
+
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 
 ### **Simulation**
 
+The project is simulated using a testbench, this is a file that uses the coded modules while simulating clocks or inputs. VGA syncing works with over hundreds of rows and columns, this makes it impossible to see everything in a timescale handled by the simulation, so some parameters have coded in to the testbench to allow other code to run within this timeframe. Notably the row and column numbers have been reduced significantly, as can be seen in the screenshot supplied. No colour changes can be seen in this as the row and column variables will never be large enough for ColourStripe to change these colours.
+
+PIC HERE WITH DESC
+
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
+
 ### **Synthesis**
+
+Synthesis and Implementation processes are the design steps of implementing the code into hardware. The code is first coded with logic gates, as seen in Fig 1, which is a higher level of abstraction than actual hardware. This design is then programmed into the SoC, as seen in Fig 2, using look up tables, multiplexers and D flip flops. The connections are shown in green.
+
+PICS HERE WITH DESCS AND LABELS
+
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
+
 ### **Demonstration**
+
+As seen in the picture, these modules work to create a range of colours on different column ranges.
+
+PIC HERE
+
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
 ## **My VGA Design Edit**
