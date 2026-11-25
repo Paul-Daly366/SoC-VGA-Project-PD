@@ -90,10 +90,18 @@ Some of these were more difficult than others. The counter in particular took a 
 
 ### **Code Adaptation**
 
+I started with learning how to control the colour of the pixels being displayed, trying to draw a box on screen. I tried a conditional statement comparing the current row and column to a range of x y coordinates, and it worked. From there, I spent some time figuring out how FPGA code works, the flow and syntax, like how registers worked. 
+
+I got a circle to display by using a euclidean distance formula and comparing to current row and column, and got an image to move by changing the x y positions to registers and adjusting position and adding a counter. The counter works using the clock to increment at specific counts.
+
+There was some learning curves, knowing where to place code, separating combinational and sequential logic, how registers work, but I slowly built up knowledge and confidence with the language.
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Circle_Code_Combinational.png" width="40%"> <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Circle_Code_Sequential.png" width="40%">
+
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
 
 ### **Simulation**
-
+ 
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 
 ### **Synthesis**
