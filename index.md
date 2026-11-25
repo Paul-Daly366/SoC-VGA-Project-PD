@@ -163,7 +163,7 @@ Above: Simulation of my project, this particular design code only has black (0) 
 
 
 
-<video width="320" height="240" controls loop="" muted="" autoplay=""> <source src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"/> </video>
+<video width="320" height="240" src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4">
 
 Above: ColourCycle demo
 
