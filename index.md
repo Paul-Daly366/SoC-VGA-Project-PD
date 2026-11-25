@@ -42,7 +42,7 @@ VGASync handles the vsync/hsync system while providing row and column count to o
 
 Above: VGASync module code
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourStripe_Code.png">
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourStripe_Code.png"> <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourStripe_Code_Continued.png">
 
 Above: ColourStripe module code
 
@@ -96,8 +96,6 @@ To achieve this, I had to code my own colour changes, create a shape, learn to u
 
 Some of these were more difficult than others. The counter in particular took a while to get working properly, as I had to make sure the incrementing worked as intended, and that the position logic was implemented correctly in the combinational and sequential logic sections. The bouncing was tricky to figure out but easy to implement, in the end I decided to compare the squared distance to the horizontal and vertical limits, change a direction variable and change the position logic to include a direction variable.
 
-PICS HERE MAYBE?
-
 ### **Code Adaptation**
 
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
@@ -111,6 +109,16 @@ Show how you simulated your own design. Are there any things to note? Demonstrat
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 
 ### **Demonstration**
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Moving_Square.png">
+
+Above: A simple square moving across the screen, utilizes a counter incremented with the clock
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Circle.png">
+
+Above: A circle on screen, created using a square distance formula and comparing to the current row and col position
+
+VID OF BOUNCING CIRCLE HERE
 
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
 
@@ -160,13 +168,7 @@ Above: Picture of VGA Top, showing my verilog file being used to create an objec
 
 
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Moving_Square.png">
 
-Above: A simple square moving across the screen, utilizes a counter incremented with the clock
-
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Circle.png">
-
-Above: A circle on screen, created using a square distance formula and comparing to the current row and col position
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_CircleTest.png">
 
