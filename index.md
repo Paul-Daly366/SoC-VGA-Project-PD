@@ -29,11 +29,21 @@ Summarise the project set-up and design flow. Include a screenshot of your own s
 
 VGASync handles the vsync/hsync system while providing row and column count to other modules, so that the colour of the current pixel can be controlled. VGATop is the main module. ColourStripe handles the logic behind pixel colour choice, taking input from other modules to do so. This is done using combinational logic to decide colour output and using sequential logic to assign colour values to registers. 
 
+PICS HERE
+
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 
 ### **Simulation**
 
 The project is simulated using a testbench, this is a file that uses the coded modules while simulating clocks or inputs. VGA syncing works with over hundreds of rows and columns, this makes it impossible to see everything in a timescale handled by the simulation, so some parameters have coded in to the testbench to allow other code to run within this timeframe. Notably the row and column numbers have been reduced significantly, as can be seen in the screenshot supplied. No colour changes can be seen in this as the row and column variables will never be large enough for ColourStripe to change these colours.
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_ColourStripes.png">
+
+Above: Simulation of colour stripe testbench simulation, parameters have been adjusted to make the simulation easy to follow
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_with_colour_changes.png">
+
+Above: Expanded testbench to include colour changes, represented by characters in bit waveforms
 
 PIC HERE WITH DESC
 
@@ -131,13 +141,7 @@ Above: D Flip Flop
 
 Above: Picture of VGA Top, showing my verilog file being used to create an object
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_ColourStripes.png">
 
-Above: Simulation of colour stripe testbench simulation, parameters have been adjusted to make the simulation easy to follow
-
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_with_colour_changes.png">
-
-Above: Expanded testbench to include colour changes, represented by characters in bit waveforms
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Moving_Square.png">
 
