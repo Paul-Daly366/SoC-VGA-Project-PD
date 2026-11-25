@@ -104,8 +104,6 @@ There was some learning curves, knowing where to place code, separating combinat
 
 Above: Code snippets from my design file
 
-Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
-
 ### **Simulation**
  
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
@@ -164,7 +162,7 @@ Above: Simulation of my project, this particular design code only has black (0) 
 
 
 
-<video width="320" height="240" controls loop="" muted="" autoplay="" src="https://media.githubusercontent.com/media/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"></video>
+<video width="320" height="240" controls loop="" muted="" autoplay=""> <source src="https://media.githubusercontent.com/media/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"/> </video>
 
 Above: ColourCycle demo
 
