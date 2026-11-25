@@ -167,7 +167,7 @@ Above: D Flip Flop
 
 
 
-<video width="320" height="240" controls muted src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"> </video>
+<video width="320" height="240" controls muted loop src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"> </video>
 
 Above: ColourCycle demo
 
