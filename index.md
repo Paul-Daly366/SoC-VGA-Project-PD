@@ -85,19 +85,17 @@ Above: ColourCycle demo
 
 ## **My VGA Design Edit**
 
-For my project, I decided to replicate the iconic DVD screensaver. This is a simple screensaver on DVD devices that activates when the device enters idle or sleep mode, helping to reduce the issue of screen-burn in.
+For my project, I decided to replicate the iconic DVD screensaver. This is a simple screensaver on DVD devices that activates when the device enters idle or sleep mode, helping to reduce the issue of screen-burn in. To achieve this: I learnt to change pixel colour, create a simple shape, use a counter to move the shape, and figure out how to make the moving image change direction based on its position.
 
-To achieve this, I had to code my own colour changes, create a shape, learn to use a counter to animate the image, and figure out how to make the moving image change direction based on its position.
-
-Some of these were more difficult than others. The counter in particular took a while to get working properly, as I had to make sure the incrementing worked as intended, and that the position logic was implemented correctly in the combinational and sequential logic sections. The bouncing was tricky to figure out but easy to implement, in the end I decided to compare the squared distance to the horizontal and vertical limits, change a direction variable and change the position logic to include a direction variable.
+Some of these were more difficult than others. The counter in particular took a while to get working properly, as I had to make sure the incrementing worked as intended, and that the position logic was implemented correctly in the combinational and sequential logic sections. The bouncing was tricky to figure out and to implement, and took a bit of time to get right.
 
 ### **Code Adaptation**
 
-I started with learning how to control the colour of the pixels being displayed, trying to draw a box on screen. I tried a conditional statement comparing the current row and column to a range of x y coordinates, and it worked. From there, I spent some time figuring out how FPGA code works, the flow and syntax, like how registers worked. 
+I created a circle shape using a squared distance formula, comparing that with the current x y position. If the distance is less than the radius of the circle, change colour to create the circle.
 
-I got a circle to display by using a euclidean distance formula and comparing to current row and column, and got an image to move by changing the x y positions to registers and adjusting position and adding a counter. The counter works using the clock to increment at specific counts.
+I then coded movement by adding in a counter that increments with the clock, which adds to the xy position of the circle when it reaches a certain value (COUNT_TO in the picture). When adding this functionality in, the xy position of the circle had to be handled like a register, so handling the value in sequential logic.
 
-There was some learning curves, knowing where to place code, separating combinational and sequential logic, how registers work, but I slowly built up knowledge and confidence with the language.
+After that, I coded in the bounce. This was done with a register variable that controlled which direction to move the circle (by adding or taking away from the circle xy position), these direction variables where changed when the x or y position of the circle gets too close to an edge of the screen. This works as intended but is a bit inaccurate, getting the values to compare to correct took some trial and error.
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Code_Start_RegsVarsConsts.png" width="40%"> <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Circle_Code_Combinational.png" width="30%"> <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Circle_Code_Sequential.png" width="28%"> 
 
@@ -141,7 +139,7 @@ Above: Zoomed in on some components
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Synthesis3_DFLIPFLOP.png">
 
-Above: D Flip Flop used to store the circles x position
+Above: D Flip Flop used to store the x position of the circle
 
 ### **Demonstration**
 
