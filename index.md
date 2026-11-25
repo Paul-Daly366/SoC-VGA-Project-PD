@@ -79,7 +79,7 @@ The output of this template project, a range of colours on different column rang
 
 Above: ColourStripe demo
 
-<video width="320" height="240" controls muted loop src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"> </video>
+<video width="640" height="480" controls muted loop src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"> </video>
 
 Above: ColourCycle demo
 
@@ -145,6 +145,8 @@ Above: D Flip Flop used to store the circles x position
 
 ### **Demonstration**
 
+Here are some finished outputs from the project.
+
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Moving_Square.png">
 
 Above: A simple square moving across the screen, utilizes a counter incremented with the clock
@@ -153,7 +155,9 @@ Above: A simple square moving across the screen, utilizes a counter incremented 
 
 Above: A circle on screen, created using a square distance formula and comparing to the current row and col position
 
-VID OF BOUNCING CIRCLE HERE
+<video width="640" height="480" controls muted loop src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/CircleBounce.mp4"> </video>
+
+Above: Video of circle bouncing on edges of screen, though the edges are bit inaccurate
 
 
 
