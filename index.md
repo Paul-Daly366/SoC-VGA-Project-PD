@@ -56,6 +56,10 @@ The project is simulated using a testbench, this is a file that uses the coded m
 
 Notably the row and column limits have been reduced significantly, as can be seen in the screenshot supplied. No colour changes can be seen in the first simulation as the row and column variables will never be large enough for ColourStripe to change these values, the second simulation has a module adjusted to change some colours with respect to the lower limit parameters.
 
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_File_Template.png">
+
+Above: Coded testbench file for template
+
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_ColourStripes.png">
 
 Above: Testbench simulation for ColourStripe
@@ -166,9 +170,7 @@ Above: A circle on screen, created using a square distance formula and comparing
 
 Above: Simulation of my project, this particular design code only has black (0) or white (f), which can be seen in the start
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_File_Template.png">
 
-Above: Coded testbench file for template
 
 
 
