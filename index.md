@@ -103,7 +103,15 @@ Above: Code snippets from my design file
 
 ### **Simulation**
 
-I adapted the testbench from the template code to work with my project. I didn't have to change too much, just adding the testbench as a simulation source file and changing a line of code CONT
+I adapted the testbench from the template code to work with my project. I didn't have to change too much, just adding the testbench as a simulation source file and changing a line of code to use the circle test module.
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_Circle.png">
+
+Above: Testbench file of project
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_CircleTest.png">
+
+Above: Simulation of my project, this particular design code only has black (0) or white (f), which can be seen in the start
  
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 
@@ -156,10 +164,6 @@ Above: D Flip Flop
 
 
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_CircleTest.png">
-
-Above: Simulation of my project, this particular design code only has black (0) or white (f), which can be seen in the start
-
 
 
 
@@ -168,8 +172,6 @@ Above: Simulation of my project, this particular design code only has black (0) 
 Above: ColourCycle demo
 
 
-<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_Circle.png">
 
-Above: Testbench file of project
 
 
