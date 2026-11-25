@@ -151,3 +151,20 @@ Above: A simple square moving across the screen, utilizes a counter incremented 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/OUTPUT_Circle.png">
 
 Above: A circle on screen, created using a square distance formula and comparing to the current row and col position
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Template_Overview.png">
+
+Above: Elaborated Design for template project
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/VGASync_Code.png">
+
+Above: VGASync module code
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourStripe_Code.png">
+
+Above: ColourStripe module code
+
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Arch_Diagram.png">
+
+Above: Architectural Diagram of template project
+
