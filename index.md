@@ -103,7 +103,7 @@ Above: Code snippets from my design file
 
 ### **Simulation**
 
-I adapted the testbench from the template code to work with my design. I didn't have to change too much, I added a simulation source file and then added code for the circle module
+I adapted the testbench from the template code to work with my project. I didn't have to change too much, just adding the testbench as a simulation source file and changing a line of code CONT
  
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 
@@ -163,7 +163,7 @@ Above: Simulation of my project, this particular design code only has black (0) 
 
 
 
-<video width="320" height="240" src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4">
+<video width="320" height="240" src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ColourCycleDemo.mp4"> </video>
 
 Above: ColourCycle demo
 
