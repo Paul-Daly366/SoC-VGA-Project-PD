@@ -162,6 +162,10 @@ Above: A simple square moving across the screen, utilizes a counter incremented 
 
 Above: A circle on screen, created using a square distance formula and comparing to the current row and col position
 
+<img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Testbench_CircleTest.png">
+
+Above: Testbench of my project, this particular design code only has black (0) or white (f), which can be seen in the start
+
 
 
 
