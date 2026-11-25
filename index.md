@@ -90,11 +90,13 @@ PIC HERE, NEED TO BE DONE DURING LAB
 
 ## **My VGA Design Edit**
 
-For my project, I decided to replicate the iconic DVD screensaver. This is a simple screensaver on DVD devices that activates when the device enters idle or sleep mode, helping to reduce the issue of screen-burn in. CITE?
+For my project, I decided to replicate the iconic DVD screensaver. This is a simple screensaver on DVD devices that activates when the device enters idle or sleep mode, helping to reduce the issue of screen-burn in.
 
-To achieve this, I COUNTER STUFF + MOVEMENT + BOUNCING
+To achieve this, I had to code my own colour changes, create a shape, learn to use a counter to animate the image, and figure out how to make the moving image change direction based on its position.
 
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
+Some of these were more difficult than others. The counter in particular took a while to get working properly, as I had to make sure the incrementing worked as intended, and that the position logic was implemented correctly in the combinational and sequential logic sections. The bouncing was tricky to figure out but easy to implement, in the end I decided to compare the squared distance to the horizontal and vertical limits, change a direction variable and change the position logic to include a direction variable.
+
+PICS HERE MAYBE?
 
 ### **Code Adaptation**
 
@@ -171,7 +173,9 @@ Above: A circle on screen, created using a square distance formula and comparing
 Above: Simulation of my project, this particular design code only has black (0) or white (f), which can be seen in the start
 
 
+## Resources used for this Project
 
+Reference stuff here, use proper links
 
 
 
