@@ -91,15 +91,15 @@ Above: Start of my verilog file showing declarations for registers, variables an
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboLogic.png">
 
-Above: Expanded Logic Diagram of Project
+Above: Elaborated Design of my project, modules have been expanded
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboTemp.png">
 
-Above: Expanded Logic Diagram of Template
+Above: Elaborated Design of template project, modules have been expanded
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/HighLevelOverview.png">
 
-Above: Overview of Logic Diagram of Project
+Above: Elaborated Design of my project
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/Proj_Summary.png">
 
