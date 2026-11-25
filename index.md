@@ -159,10 +159,13 @@ Above: Video of circle bouncing on edges of screen, though the edges are bit ina
 
 ## **References**
 
+[Vivado Documentation](https://docs.amd.com/r/en-US/ug896-vivado-ip/Vivado-Design-Suite-Documentation)
 
+[SoC Board Documentation](https://digilent.com/reference/programmable-logic/basys-3/reference-manual)
 
-3-4 References!
+[A useful verilog tutorial](https://chipverify.com/verilog/verilog-tutorial)
 
+[Some interesting verilog guides](https://www.asic-world.com/verilog/veritut.html)
 
 
 
