@@ -68,7 +68,7 @@ Above: Expanded testbench to include colour changes, represented by characters i
 
 Synthesis and Implementation processes are the design steps of implementing the code into hardware. An elaborated design is generated first, applying logic gates and other digital components to the module code, this design is a higher level of abstraction.
 
-This design is then programmed into the SoC, using look up tables, multiplexers and D flip flops, creating our implemented design. The connections are shown in green.
+This synthesized design is then implemented into the actual SoC, using the various components available, such as multiplexers, lookup tables and D Flip Flops.
 
 <img src="https://raw.githubusercontent.com/Paul-Daly366/SoC-VGA-Project-PD/refs/heads/main/docs/assets/images/ComboTemp.png">
 
