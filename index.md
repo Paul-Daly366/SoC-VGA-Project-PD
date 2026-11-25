@@ -7,13 +7,25 @@ categories: project
 
 # Project Synopsis
 
-Welcome to my development page for my project. This is a project to adapt an FPGA VGA driver to display graphics on to a display.
+Welcome to my development page for my project. This is a project to adapt an FPGA VGA driver to display graphics on to a display. I will be attempting to create a simple version of the DVD logo through Vivado, and will be going through the FPGA workflow that follows.
+
+
 
 [Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. ]
 
 ## **Template VGA Design**
 
 ### **Project Set-Up**
+
+There are two tenplate projects provided, Colour Stripes and Colour Cycle. I used and learned from both of these to make my own display code, and utilized the modules in these templates to work with.
+
+The templates work with several modules:
+
+* VGA Top
+* VGA Sync
+* Colour Stripes/Colour Cycles
+
+
 
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
