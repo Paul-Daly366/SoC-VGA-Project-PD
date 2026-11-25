@@ -155,8 +155,6 @@ Above: A circle on screen, created using a square distance formula and comparing
 
 VID OF BOUNCING CIRCLE HERE
 
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
-
 
 
 
