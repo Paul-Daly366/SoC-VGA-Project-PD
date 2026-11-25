@@ -78,17 +78,11 @@ Above: Elaborated Design of template project, modules have been expanded
 
 Above: Implemented Design of template project
 
-PICS HERE WITH DESCS AND LABELS
-
-Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
-
 ### **Demonstration**
 
-As seen in the picture, these modules work to create a range of colours on different column ranges.
+The output of this template project, a range of colours on different column ranges displayed through VGA.
 
-PIC HERE
-
-Perhaps add a picture of your demo. Guideline: 1/2 sentences.
+PIC HERE, NEED TO BE DONE DURING LAB
 
 ## **My VGA Design Edit**
 
